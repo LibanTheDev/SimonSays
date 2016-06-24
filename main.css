@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+body,html{
+  background:black;
+  font-family: 'Slabo',sans-serif;
+  font-weight:700;
+}
+h1{
+  margin: 0 auto;
+  text-align: center;
+  font-family: inherit;
+  color:#FFF;
+}
+.row{
+  margin:15vh auto 0;
+  width:225px; height:225px;
+
+}
+.game{
+  display: inline-table;
+  height: 200px;
+
+  padding-left: 500px;
+
+}
+.col-xs-6{
+  height:50%;
+  border-radius:12px;
+}
+.col-xs-12{
+  height:50%;
+  padding:0;
+}
+#green, #red{height:100%;}
+#white{
+  cursor:default;
+  background:#fbfcfc;
+  width:50px;height:50px;
+  border-radius:12px;
+  position:absolute;
+  left:39%;
+  top:87.5px;
+  text-align:center;
+  font-size:36px;
+  z-index:2;
+}
+#green{background:#2ecc71;}
+#red{background:#e74c3c;}
+#yellow{background:#f1c40f;}
+#blue{background:#3498db;}
+
+.text{
+  position:fixed;
+  top:12.5%;
+  margin:0 auto;
+  left:0;right:0;
+  width:300px;
+  text-align:center;
+  cursor:default;
+  z-index:5;
+}
+h1{
+  color:#2c3e50;
+  font-size:84px;
+}
+.buttons{text-align:center;}
+
+.btn{background:#40B5BF;color:#ecf0f1;font-size:1.6em;font-weight:bold;margin:15px 5px; font-family:'Slabo' }
+.btn:hover,.btn:focus,.btn:active{background:#40B5BF;color:#ecf0f1;}
